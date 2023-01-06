@@ -1,15 +1,9 @@
-div{
-    height: 100px;
-    width: 100px;
-    border: 1px solid;
-    position: absolute;
+h1{
+    font-size: 30px;
 }
-.red{
-    background-color: red;
+@media (max-width:900px){
+    h1{
+color: red;
+font-size: 60px;
 }
-.blue{
-    background-color: blue;
-}
-.yellow{
-    background-color: yellow;
 }

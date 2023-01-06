@@ -58,6 +58,17 @@ transform: rotate(25deg);
 position:absolute;
 
 }
+@media (max-width:1028px) {
+   #title{
+    text-align:center;
+   }
+    .iphone{
+        width: 40%;
+        position:static;
+        transform: rotate(0deg); 
+        }
+
+}
 
 /* features */
 #features{
@@ -67,11 +78,11 @@ position:absolute;
     z-index: 1;
     background-color: white;
 }
-.fa-solid{
+.feature-icon{
     color:#e18172;
     margin-bottom: 1rem;
 }
-.fa-solid:hover{
+.feature-icon:hover{
     color: #ff4c68;
 }
 .f-p{
@@ -109,4 +120,26 @@ margin:20px 20px 50px
 }
 .price-col{
     padding:3% 2%
+}
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15% ;
+    color: white;
+}
+footer{
+    background-color: #fff;
+    text-align: center;
+    padding:7% 15% ;
+   
+  
+}
+.fot{
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.fp{
+    color: #8f8f8f;
 }
